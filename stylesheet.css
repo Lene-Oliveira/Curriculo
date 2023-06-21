@@ -5,12 +5,29 @@ grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
+@import 'https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap';  /*Importação de fontes externas*/
 
 .div1 {
 	background-color: #445369;
- grid-area: 1 / 1 / 4 / 2; 
-padding: 20px;}
-.div2 { grid-area: 1 / 2 / 4 / 3; }
+ 	grid-area: 1 / 1 / 4 / 2; 
+	padding: 20px;
+	width: 350px;
+	font-family: 'Fredoka', sans-serif;
+}
+.div2 {
+	align-items: left;
+	width: 900px; 
+	grid-area: 1 / 2 / 4 / 3; 
+	font-family: 'Fredoka', sans-serif;
+}
+
+a{
+	color: #D6AD60;
+}
+
+a:hover{
+	color: #B68D40;
+}
 
 p{
 	text-align: justify;
